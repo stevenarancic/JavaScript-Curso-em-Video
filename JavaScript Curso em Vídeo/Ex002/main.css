@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(51, 69, 129);
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font: 16pt Arial;
+}
+
+#blocoCentral {
+    color: black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.356);
+}
+
+#res {
+    display: grid;
+}

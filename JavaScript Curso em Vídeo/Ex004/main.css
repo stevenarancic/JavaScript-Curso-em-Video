@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    background-color: rgb(70, 142, 236);
+    color: white;
+    display: table-cell;
+    vertical-align: middle;
+    font: 16pt Arial;
+}
+
+header {
+    text-align: center;
+}
+
+#bloco_central {
+    margin: auto;
+    width: 500px;
+    color: black;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.356);
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
